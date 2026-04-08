@@ -1,0 +1,78 @@
+.border {
+    border: 2px solid red;
+    margin: 4px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.black-bg {
+    background-color: black;
+    color: white;
+}
+
+.gray-bg {
+    background-color: rgba(41, 41, 41, 0.45);
+    border: 1px solid rgb(118, 118, 118);
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.round {
+    border-radius: 8px;
+}
+
+.m1 {
+    margin: 5px;
+}
+
+.p1 {
+    padding: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+.songinfo {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* .songinfo:hover{
+    animation: scrollText 6s linear infinite;
+} */
+
+@keyframes scrollText {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
